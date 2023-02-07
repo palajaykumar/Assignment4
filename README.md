@@ -1,2 +1,85 @@
 # Assignment4
 C:\Users\Lenovo\OneDrive\Documents\GitHub\Assignment4
+1. What is Javscript?
+ -> JavaScript is the programming language for web. javascript can update and change both html and css.
+    javascript can calculate, manipulate and validatev data.
+
+ 2. What is use of isNAN function?
+ -> isNaN() return true if a number is not-a-number. in other words: isNaN () converts the
+    value to a number before testing it.
+
+ 3. What is negative infinity?
+ -> NEGATIVE_INFINITY is special numeric value that is returned when an arithmetic operation 
+    or mathematical function generate negative value greater than largest representable number
+    in javascript.
+
+ 4. Which company developed javascript?
+ -> JavaScript was invented by Brendan Eich in 1995. it was developed for netscape 2, and became
+    ECMA-262 standard in 1997. after netscape handed javascript over to ECMA, mozilla foundation
+    continued to develop javascript for firefox browser. Mozilla latest version was 1.8.
+
+ 5. What are undeclared and undefined variables?
+ -> Undefined: it occurs when a variable has been declared but has not been assigned any value.
+    undefined is not a keyword.
+
+    Undeclared: it occurs when we try to access any variable that is not initialized or declared
+    earlier using the var or const keyword.
+
+ 6. Write the code for adding new elements dynamically?
+ -> Syntax: document. createElement("<tagName>");// where <tagName> can be any HTML// tagname like
+    div, ul, button, etc. // new div element has been created for eg: let newDiv = document.
+    createElement("div");
+
+ 7. What is difference between viewstate and sessionstate?
+ -> The basic difference between these two is that viewstate is to manage state at the client end
+    making state management easy for end-user while session state manage at sever end, making it easy
+    to manage content from this end too. 
+    ViewState: it is maintained at only one level that is page-level.
+
+ 8. What is === operator?
+ -> In computer programming, operator are construct defined within programming language which behave
+    generally like function, but which differ syntactically or semantically. common simple example 
+    include arithmetic, comparsion, and logical operation.
+
+ 9. How can style/class of an element be changed?
+ -> Another way to alter style of an element is by changing its class attribute. class is reserved 
+    word in javascript, so in order to access element class you use element class name.  
+
+ 10. How to read and write file using javascript?
+ -> readfile() and rs.writefile() methods are used to read and write of file using javascript. the file is read using the fs.readfile() 
+    function, which is an inbuilt method.
+
+ 11. What are all looping structre in javascript?
+ ->  Javascript support different kind of loops:
+   for- loops through block of code a number of times.
+   for/in - loops through properties of an object.
+   for/of - loops through value of an iterable object.
+
+ 12. How can you convert string of any base to an integer in javascript?
+ ->  In javascript parselnt() function is used to convert passed-in string parameter or value to an integer value itself. 
+     this function return integer of base which is specified in second argument of parselnt() function.
+
+ 13. What is the function of the delete operator?
+ ->  The delete operator remove property from an object. if property value is an object and there are no more reference 
+     to object, object held by that property is eventually released automatically.
+
+ 14. What are all type of pop up boxes available in javascript?
+ ->  javascript has three kind of popup boxes:
+     Alert box, Confirm box, and Prompt box.
+
+ 15. What is the use of void in(0)?
+ ->  javascipt void 0 means returning undefined(void) as a primitive value. you might come across term "Javascript:void(0)"
+     while going through html document. it is used to prevent any side effect caused while inserting an expression in web page.
+
+ 16. How can page be forced to load another page in javascript?
+ ->  Approach: We can use window. location property inside script tag to forcefully load another page in javascript. it is refernce
+     to location object that is it represent current location of document. we can change of url of window by accessing it.
+
+ 17. What are disadvantage of using innerHTML in javascript?
+ ->  can the break document. there is no proper validation provided by innerHTML, so any valid html code can be used. this may 
+     break document of javascript. even broken HTML can be used, which may lead to unexpected problem.            
+
+
+
+                                         
+
